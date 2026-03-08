@@ -1,0 +1,62 @@
+# -----------------------------------------------
+# Python
+# -----------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# -----------------------------------------------
+# Project output files (generated data)
+# -----------------------------------------------
+# Excel output folders
+startups/
+incubators/
+
+# Any stray .xlsx files at root level
+*.xlsx
+
+# CSV exports (if added in future)
+*.csv
+
+# -----------------------------------------------
+# Environment & secrets
+# -----------------------------------------------
+.env
+.env.*
+*.env
+
+# -----------------------------------------------
+# IDE / Editor files
+# -----------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------------------------
+# OS files
+# -----------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------------------------
+# Logs & temp files
+# -----------------------------------------------
+*.log
+*.tmp
+*.bak
